@@ -1,5 +1,7 @@
+//import Input from 'antd/es/input/Input';
 import React from 'react';
 
+import Input from '../../../shared/inputs/input/input';
 import {
   BackgroundImage,
   ContainerLogin,
@@ -15,6 +17,8 @@ const LoginScreen = () => {
       <ContainerLogin>
         <LimitedContainer>
           <LogoImage src="./logo.png" />
+          <Input title="USUARIO" />
+          <Input title="SENHA" />
         </LimitedContainer>
       </ContainerLogin>
     </ContainerLoginScreen>
